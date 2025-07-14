@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+@font-face {
+    font-family: Moulpali;
+    src: url(../fonts/Moulpali-Regular.khmer.ttf);
+}
+@font-face {
+    font-family: Siemreap;
+    src: url(../fonts/Siemreap-Regular.ttf);
+}
+@font-face {
+    font-family: ShareTech;
+    src: url(../fonts/ShareTech-Regular.ttf);
+}
+h1{
+    font-family: Moulpali;
+    font-size: 45px;
+    color: #064161;
+}
+p{
+    font-family: Siemreap;
+    font-size: 20px;
+    color: #055986;
+}
+p1{
+    font-family: ShareTech;
+    font-size: 22px;
+    color: #055986;
+}

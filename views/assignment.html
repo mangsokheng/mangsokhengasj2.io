@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="../css/assignment.css">
+</head>
+<body>
+       <form class="application-form">
+        <fieldset>
+            <legend>Application form</legend>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br><br>
+            <label>Email:</label>
+            <input type="text" placeholder="Enter your email " required>
+            <br><br>
+            
+            <label>Gender:</label>
+            <label> <input type="radio" name="Gender" value="Male" checked> Male </label>
+            <label> <input type="radio" name="Gender" value="Female" checked> Female</label><br><br>
+            
+            <label> Nationality: </label>
+            <select>
+                <option value="Cambodia"> Cambodia </option>
+                <option value="Lao"> Lao </option>
+                <option value="English"> English</option>
+            </select> <br><br>
+            
+            <label> Skills </label> 
+            <label> <input type="checkbox" name="Skills" value="Asp.Net" checked>Asp.Net</label>
+            <label> <input type="checkbox" name="Skills" value="jQuery"> jQuery</label> 
+            <label> <input type="checkbox" name="Skills" value="MVC"> MVC</label>
+            <label> <input type="checkbox" name="Skills" value="Sql Server"> Sql Server</label>
+            <br><br>
+
+            <label > Post applying for </label>
+            <label > <input type="radio" name="Post" value="Trainee"checked> Trainee</label>
+            <label > <input type="radio" name="Post" value="Software Engineer"> Software Engineer</label>
+            <label > <input type="radio" name="Post" value="Team Leader"> Team Leader</label>
+            <label > <input type="radio" name="Post" value="Project manager">Project manager</label> <br><br>
+
+            <label> Upload resume: </label>
+            <label> <input type="file" name="resume" value=""></label> <br><br>
+
+            <label> Paste your resume</label>
+            <textarea rows="5" cols="35" placeholder="Sample resume text"></textarea> <br><br>
+
+            <label > <input type="checkbox" name="" value="Notify me the status via Email"> Notify me the status via Email</label> <br><br>         
+            <label> <input type="radio" name="" value="I agree to terms & conditions" > I agree to terms  & conditions </label> <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+        </form>
+    </fieldset>
+</body>
+</html> 

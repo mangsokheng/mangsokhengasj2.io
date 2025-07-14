@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+fieldset{
+    margin: 120px auto;
+    width: 600px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    background: white;
+}
+label{
+    vertical-align: top;
+}
+input[type="radio"]:hover{
+    transform: scale(1.2);
+}
+input[type="submit"]{
+    font-size: 15px;
+    width: 85px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="checkbox"]:hover{
+    transform: scale(1.2);
+}
+input[type="submit"]:hover{
+    background-color: #442c0c;
+    width: 87px;
+    height: 37px;
+    border-radius: 0px;
+}
+input[type="reset"]{
+    font-family: Soyy;
+    font-size: 15px;
+    width: 85px; 
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+input[type="reset"]:hover{
+    background-color: #442c0c;
+    width: 87px;
+    height: 35px;
+    border-radius: 0px; 
+}

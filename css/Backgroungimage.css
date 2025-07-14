@@ -1,0 +1,29 @@
+
+
+@font-face {
+    font-family: gg ;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+h1{
+    font-family: gg ;
+    color: white;
+    font-size: 33px;
+}
+@font-face {
+    font-family: hh;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+p{
+    font-family: hh ;
+    color: white;
+    font-size: 18px;
+}
+
+body{
+    background-image: url(../Images/AC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}

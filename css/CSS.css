@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+}
+@font-face {
+    font-family: Soyy;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+label{
+    font-family: Soyy;
+    color: #0c4949;
+    font-size: 18px;
+}                               
+input{
+    font-family: Soyy;
+    width: 350px;
+    height: 40px;
+    background-color: #ffe4c4;
+    border-radius: 5px;
+    border: 0px;
+}
+input:focus{
+    border: 2px solid rgb(89, 155, 255);
+    outline: 0px;
+}
+input[type="submit"]{
+    font-family: Soyy;
+    font-size: 15px;
+    width: 85px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #442c0c;
+    width: 87px;
+    height: 37px;
+    border-radius: 0px;
+}
+input[type="reset"]{
+    font-family: Soyy;
+    font-size: 15px;
+    width: 85px; 
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+input[type="reset"]:hover{
+    background-color: #442c0c;
+    width: 87px;
+    height: 35px;
+    border-radius: 0px; 
+}
+input[type="radio"]{
+    width: 50px;
+    height: 25px;
+}
+input[type="radio"]:hover{
+    transform: scale(1.2);
+}
+input[type="checkbox"]{
+    width: 30px;
+    height: 25px;
+}
+input[type="checkbox"]:hover{
+    transform: scale(1.2);
+}
+select{
+    width: 250px;
+    height: 35px;
+    background-color: #0c4949;
+    color: aliceblue;
+    font-family: Soyy;
+    font-size: 15px;
+}
+select:focus{
+    border: 2px solid #599bff;
+    outline: 0;
+}
+textarea{
+    font-family: Soyy;
+    color: #0c4949;
+}
+textarea:focus{
+    border: 2px solid #599bff ;
+    outline: 0;
+}
